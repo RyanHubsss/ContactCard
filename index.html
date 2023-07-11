@@ -22,6 +22,7 @@ body{
     place-items: center;
     /*background-image: "/img/itachi_background.png";*/
     font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
 }
 .container{
     width: 30em;
@@ -111,7 +112,25 @@ body{
   border-radius: 8px;
   padding:3px;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  font-family: sans-serif;
+  font-size: 24px;
+  color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  opacity: 0.6;
+}
+
+
   </style>
+  <!--
   <script>
     VanillaTilt.init(document.querySelectorAll(".social__links ul li"), {
     max: 10,
@@ -119,6 +138,7 @@ body{
     glare: true,
     "max-glare": 1
 });
+-->
   </script>
 </head>
 <body id="back_img" background="img/itachi_background.png">
@@ -157,13 +177,16 @@ body{
       <li class="portfolio"><a href="img/Resume 2023.pdf">
           <i class="fa fa-portfolio"></i>
           <span>
-            <h3>Portfolio</h3>
+            <h3>Resume</h3>
             <p>CHECK OUT MY SKILLS</p>
             
           </span>
         </a></li>
     </ul>
   </div>
+</div>
+<div class="footer">
+  This webpage is created by Ryan Yong
 </div>
 </body>
 </html>
