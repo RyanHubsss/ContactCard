@@ -89,6 +89,28 @@ body{
         width: 88vw;
     }
   }
+
+#back_img{
+  background-repeat: repeat;
+  background-size: 90%;
+
+}
+
+#title_name{
+  font-family:Consolas; 
+  font-size: 200%;
+  background-color: #333;
+  border-radius: 8px;
+  padding:3px;
+
+}
+
+#title_job{
+  font-family:Consolas;
+  background-color: #333;
+  border-radius: 8px;
+  padding:3px;
+}
   </style>
   <script>
     VanillaTilt.init(document.querySelectorAll(".social__links ul li"), {
@@ -99,15 +121,15 @@ body{
 });
   </script>
 </head>
-<body background="img/itachi_background.png">
+<body id="back_img" background="img/itachi_background.png">
 	<div class="container">
   <div class="head__section">
     <img src="https://scontent.fsin14-2.fna.fbcdn.net/v/t39.30808-6/304741145_10160188233517140_1486069961268337847_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=-k_uNQQYdd8AX8Wj3iL&_nc_ht=scontent.fsin14-2.fna&oh=00_AfCj5G6xmy87LF11vKuNMwiBdUuHtusi8802K-YmXFA4Dg&oe=64AE1921" alt="">
     <p></p>
     <br>
-    <p>Yong Yue Min Ryan</p>
+    <p id="title_name">Yong Yue Min Ryan</p>
     <br>
-    <p>I'm a full stack web developer</p>
+    <p id="title_job">I'm a full stack web developer</p>
   </div>
   <div class="social__links">
     <ul id="item">
@@ -132,11 +154,11 @@ body{
             <p>See what I am up too through Instagram</p>
           </span>
         </a></li>
-      <li class="portfolio"><a href="#">
+      <li class="portfolio"><a href="img/Resume 2023.pdf">
           <i class="fa fa-portfolio"></i>
           <span>
             <h3>Portfolio</h3>
-            <p>Check out what I've made, I do FREELANCING</p>
+            <p>CHECK OUT MY SKILLS</p>
             
           </span>
         </a></li>
